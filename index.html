@@ -17,8 +17,8 @@
       </p>
       <p class="intro">
         I work at the intersection of social science, data analysis, public opinion research,
-        and applied AI workflows. My projects combine statistical modeling, mixed-methods
-        research, text analysis, research automation, and consulting-oriented problem solving.
+        and applied AI workflows. My projects combine statistical modeling, computational text analysis,
+        machine learning, and research-oriented problem solving.
       </p>
       <div class="links">
         <a href="https://github.com/sabrinaVcorbacho" target="_blank">GitHub</a>
@@ -30,72 +30,67 @@
   <main class="container">
 
     <section>
-  <h2>Featured Projects</h2>
+      <h2>Featured Projects</h2>
 
-  <div class="tabs">
-    <button class="tab-button active" onclick="openTab(event, 'computational-social-science')">
-      Computational Social Science / Political Data Science
-    </button>
-  </div>
+      <div class="project-category">
+        <p class="category-label">Computational Social Science / Political Data Science</p>
 
-  <div id="computational-social-science" class="tab-content active">
+        <div class="project-grid">
 
-    <div class="project-grid">
+          <article class="project-card">
+            <h3>LaBanda</h3>
+            <p>
+              Jupyter Notebook project analyzing local political dynamics in La Banda,
+              Santiago del Estero, Argentina.
+            </p>
+            <p class="tags">Jupyter Notebook · Political Science · Local Politics</p>
+            <a href="https://github.com/sabrinaVcorbacho/LaBanda" target="_blank">View project</a>
+          </article>
 
-      <article class="project-card">
-        <h3>LaBanda</h3>
-        <p>
-          Jupyter Notebook project analyzing local political dynamics in La Banda,
-          Santiago del Estero, Argentina.
-        </p>
-        <p class="tags">Jupyter Notebook · Political Science · Local Politics</p>
-        <a href="https://github.com/sabrinaVcorbacho/LaBanda" target="_blank">View project</a>
-      </article>
+          <article class="project-card">
+            <h3>Subnational Democracy and Self-Censorship</h3>
+            <p>
+              Research project analyzing how local regime type shapes political self-censorship
+              in Argentina’s subnational units using multilevel modeling.
+            </p>
+            <p class="tags">R · Multilevel Modeling · Subnational Politics</p>
+            <a href="https://github.com/sabrinaVcorbacho/subnational-democracy-self-censorship" target="_blank">View project</a>
+          </article>
 
-      <article class="project-card">
-        <h3>Subnational Democracy and Self-Censorship</h3>
-        <p>
-          Research project analyzing how local regime type shapes political self-censorship
-          in Argentina’s subnational units using multilevel modeling.
-        </p>
-        <p class="tags">R · Multilevel Modeling · Subnational Politics</p>
-        <a href="https://github.com/sabrinaVcorbacho/subnational-democracy-self-censorship" target="_blank">View project</a>
-      </article>
+          <article class="project-card">
+            <h3>Subnational Media Framing Argentina NLP</h3>
+            <p>
+              Computational text analysis project examining whether local and national media
+              frame provincial politics differently in Santiago del Estero, Argentina.
+            </p>
+            <p class="tags">R · NLP · Media Framing · Text Analysis</p>
+            <a href="https://github.com/sabrinaVcorbacho/subnational-media-framing-argentina-nlp" target="_blank">View project</a>
+          </article>
 
-      <article class="project-card">
-        <h3>Subnational Media Framing Argentina NLP</h3>
-        <p>
-          Computational text analysis project examining whether local and national media
-          frame provincial politics differently in Santiago del Estero, Argentina.
-        </p>
-        <p class="tags">R · NLP · Media Framing · Text Analysis</p>
-        <a href="https://github.com/sabrinaVcorbacho/subnational-media-framing-argentina-nlp" target="_blank">View project</a>
-      </article>
+          <article class="project-card">
+            <h3>U.S. Bill Passage Prediction</h3>
+            <p>
+              Machine learning project predicting U.S. bill passage outcomes using supervised
+              classification models.
+            </p>
+            <p class="tags">Machine Learning · Python · Jupyter Notebook</p>
+            <a href="https://github.com/sabrinaVcorbacho/us-bill-passage-prediction-ml" target="_blank">View project</a>
+          </article>
 
-      <article class="project-card">
-        <h3>U.S. Bill Passage Prediction</h3>
-        <p>
-          Machine learning project predicting U.S. bill passage outcomes using supervised
-          classification models.
-        </p>
-        <p class="tags">Machine Learning · Python · Jupyter Notebook</p>
-        <a href="https://github.com/sabrinaVcorbacho/us-bill-passage-prediction-ml" target="_blank">View project</a>
-      </article>
-
-    </div>
-  </div>
-</section>
+        </div>
+      </div>
+    </section>
 
     <section>
       <h2>Areas of Work</h2>
       <div class="skills">
         <span>Computational Social Science</span>
+        <span>Political Data Science</span>
         <span>Public Opinion Research</span>
         <span>Machine Learning</span>
         <span>Text-as-Data</span>
         <span>Mixed Methods</span>
         <span>Research Automation</span>
-        <span>Conversational UX</span>
         <span>AI Evaluation</span>
       </div>
     </section>
@@ -106,22 +101,5 @@
     <p>© 2026 Sabrina Victoria Corbacho</p>
   </footer>
 
-  <script>
-  function openTab(event, tabId) {
-    const tabContents = document.querySelectorAll(".tab-content");
-    const tabButtons = document.querySelectorAll(".tab-button");
-
-    tabContents.forEach(content => {
-      content.classList.remove("active");
-    });
-
-    tabButtons.forEach(button => {
-      button.classList.remove("active");
-    });
-
-    document.getElementById(tabId).classList.add("active");
-    event.currentTarget.classList.add("active");
-  }
-</script>
 </body>
 </html>
