@@ -106,3 +106,34 @@ footer {
   padding: 30px;
   color: #666;
 }
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.tab-button {
+  border: 1px solid #ddd;
+  background: white;
+  color: #222;
+  padding: 10px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.tab-button.active {
+  background: #111;
+  color: white;
+  border-color: #111;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
