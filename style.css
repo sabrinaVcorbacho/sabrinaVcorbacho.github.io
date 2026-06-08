@@ -18,6 +18,26 @@ body {
   padding: 80px 0;
 }
 
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.profile-photo {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
 h1 {
   font-size: 3rem;
   margin: 0 0 10px;
@@ -136,6 +156,17 @@ footer {
 @media (max-width: 700px) {
   .hero {
     padding: 60px 0;
+  }
+
+  .hero-content {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 28px;
+  }
+
+  .profile-photo {
+    width: 160px;
+    height: 160px;
   }
 
   h1 {
