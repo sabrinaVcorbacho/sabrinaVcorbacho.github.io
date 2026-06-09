@@ -9,106 +9,249 @@
 
 <body>
 
-  <header class="hero">
-  <div class="container hero-content">
-
-    <div class="hero-text">
-      <h1>Sabrina Victoria Corbacho</h1>
-      <p class="subtitle">
-        Computational Social Scientist | Research, Data Analysis & AI Workflows
-      </p>
-      <p class="intro">
-        I work at the intersection of social science, data analysis, public opinion research,
-        and applied AI workflows. My projects combine statistical modeling, computational text analysis,
-        machine learning, and research-oriented problem solving.
-      </p>
-      <div class="links">
-        <a href="https://github.com/sabrinaVcorbacho" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/svcorbacho/" target="_blank">LinkedIn</a>
-      </div>
+  <header class="topbar">
+    <div class="container nav">
+      <a href="#" class="logo">S. V. CORBACHO</a>
+      <nav class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <img
-      src="assets/profile.jpeg"
-      alt="Photo of Sabrina Victoria Corbacho"
-      class="profile-photo"
-    />
+  <main>
 
-  </div>
-</header>
+    <section class="hero">
+      <div class="container hero-grid">
 
-  <main class="container">
+        <div class="hero-text">
+          <p class="eyebrow">Research · Data · AI Workflows</p>
+          <h1>Sabrina Victoria Corbacho</h1>
+          <p class="subtitle">
+            Computational Social Scientist | Political Data Science | Public Opinion Research | AI Workflows
+          </p>
+          <p class="intro">
+            I work at the intersection of social science, data analysis, public opinion research,
+            and applied AI workflows. My projects combine statistical modeling, computational text analysis,
+            machine learning, and research-oriented problem solving.
+          </p>
 
-    <section>
-      <h2>Featured Projects</h2>
+          <div class="hero-actions">
+            <a href="https://github.com/sabrinaVcorbacho" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/svcorbacho/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-frame">
+            <img src="assets/profile.jpeg" alt="Photo of Sabrina Victoria Corbacho" />
+          </div>
+
+          <div class="highlight-card card-1">MS Data Analytics & CSS</div>
+          <div class="highlight-card card-2">Public Opinion Research</div>
+          <div class="highlight-card card-3">Latin America Focus</div>
+          <div class="highlight-card card-4">AI Evaluation</div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="container section" id="projects">
+      <div class="section-header">
+        <p class="eyebrow">Selected public repositories</p>
+        <h2>Projects by theme</h2>
+      </div>
 
       <div class="project-category">
-        <p class="category-label">Computational Social Science / Political Data Science</p>
+        <div class="category-header">
+          <h3>Computational Social Science / Political Data Science</h3>
+          <p>Public repositories currently featured on this portfolio.</p>
+        </div>
 
         <div class="project-grid">
 
           <article class="project-card">
-            <h3>LaBanda</h3>
+            <div class="card-top">
+              <span class="status">Public</span>
+              <span class="type">Jupyter Notebook</span>
+            </div>
+            <h4>LaBanda</h4>
             <p>
               Jupyter Notebook project analyzing local political dynamics in La Banda,
               Santiago del Estero, Argentina.
             </p>
-            <p class="tags">Jupyter Notebook · Political Science · Local Politics</p>
-            <a href="https://github.com/sabrinaVcorbacho/LaBanda" target="_blank">View project</a>
+            <div class="tags">
+              <span>Political Science</span>
+              <span>Local Politics</span>
+            </div>
+            <a href="https://github.com/sabrinaVcorbacho/LaBanda" target="_blank">View project →</a>
           </article>
 
           <article class="project-card">
-            <h3>Subnational Democracy and Self-Censorship</h3>
+            <div class="card-top">
+              <span class="status">Public</span>
+              <span class="type">R</span>
+            </div>
+            <h4>Subnational Democracy and Self-Censorship</h4>
             <p>
               Research project analyzing how local regime type shapes political self-censorship
               in Argentina’s subnational units using multilevel modeling.
             </p>
-            <p class="tags">R · Multilevel Modeling · Subnational Politics</p>
-            <a href="https://github.com/sabrinaVcorbacho/subnational-democracy-self-censorship" target="_blank">View project</a>
+            <div class="tags">
+              <span>Multilevel Modeling</span>
+              <span>Subnational Politics</span>
+            </div>
+            <a href="https://github.com/sabrinaVcorbacho/subnational-democracy-self-censorship" target="_blank">View project →</a>
           </article>
 
           <article class="project-card">
-            <h3>Subnational Media Framing Argentina NLP</h3>
+            <div class="card-top">
+              <span class="status">Public</span>
+              <span class="type">R / NLP</span>
+            </div>
+            <h4>Subnational Media Framing Argentina NLP</h4>
             <p>
               Computational text analysis project examining whether local and national media
               frame provincial politics differently in Santiago del Estero, Argentina.
             </p>
-            <p class="tags">R · NLP · Media Framing · Text Analysis</p>
-            <a href="https://github.com/sabrinaVcorbacho/subnational-media-framing-argentina-nlp" target="_blank">View project</a>
+            <div class="tags">
+              <span>NLP</span>
+              <span>Media Framing</span>
+              <span>Text Analysis</span>
+            </div>
+            <a href="https://github.com/sabrinaVcorbacho/subnational-media-framing-argentina-nlp" target="_blank">View project →</a>
           </article>
 
           <article class="project-card">
-            <h3>U.S. Bill Passage Prediction</h3>
+            <div class="card-top">
+              <span class="status">Public</span>
+              <span class="type">Python / ML</span>
+            </div>
+            <h4>U.S. Bill Passage Prediction</h4>
             <p>
               Machine learning project predicting U.S. bill passage outcomes using supervised
               classification models.
             </p>
-            <p class="tags">Machine Learning · Python · Jupyter Notebook</p>
-            <a href="https://github.com/sabrinaVcorbacho/us-bill-passage-prediction-ml" target="_blank">View project</a>
+            <div class="tags">
+              <span>Machine Learning</span>
+              <span>Political Data</span>
+            </div>
+            <a href="https://github.com/sabrinaVcorbacho/us-bill-passage-prediction-ml" target="_blank">View project →</a>
           </article>
 
         </div>
       </div>
     </section>
 
-    <section>
-      <h2>Areas of Work</h2>
-      <div class="skills">
-        <span>Computational Social Science</span>
-        <span>Political Data Science</span>
-        <span>Public Opinion Research</span>
-        <span>Machine Learning</span>
-        <span>Text-as-Data</span>
-        <span>Mixed Methods</span>
-        <span>Research Automation</span>
-        <span>AI Evaluation</span>
+    <section class="container section split" id="about">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>A hybrid profile across research, data, consulting, and AI.</h2>
+      </div>
+      <div class="about-text">
+        <p>
+          My background connects political science, computational social science, public opinion research,
+          consulting, teaching, and AI evaluation. I am especially interested in how political behavior,
+          media environments, and local institutional contexts shape how people express opinions.
+        </p>
+        <p>
+          I hold an MS in Data Analytics & Computational Social Science from UMass Amherst and a Licenciatura
+          in Political Science from Universidad del CEMA. My work focuses on Latin America, subnational politics,
+          public opinion, political expression, media framing, and AI as a tool for social research.
+        </p>
+      </div>
+    </section>
+
+    <section class="container section" id="research">
+      <div class="section-header">
+        <p class="eyebrow">Research and conferences</p>
+        <h2>Research outputs and presentations</h2>
+      </div>
+
+      <div class="timeline-list">
+        <article class="timeline-card">
+          <span class="year">2025</span>
+          <div>
+            <h3>Master’s Thesis: Subnational Democracy and Self-Censorship</h3>
+            <p>
+              Thesis project analyzing how local regime type shapes political expression and self-censorship
+              across Argentina’s subnational units.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-card">
+          <span class="year">2026</span>
+          <div>
+            <h3>Research collaboration on Latin American populism and LLMs</h3>
+            <p>
+              Research work using Spanish-language materials and large language models as measurement tools
+              to analyze political discourse in Latin America.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section writing-preview">
+      <div class="section-header">
+        <p class="eyebrow">Writing</p>
+        <h2>Future notes and articles</h2>
+      </div>
+
+      <div class="writing-grid">
+        <article>
+          <span>Coming soon</span>
+          <h3>AI and society</h3>
+          <p>Reflections on AI evaluation, language, and social research.</p>
+        </article>
+        <article>
+          <span>Coming soon</span>
+          <h3>Public opinion and politics</h3>
+          <p>Research notes on political behavior, media, and Latin America.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section" id="skills">
+      <div class="section-header">
+        <p class="eyebrow">Skills</p>
+        <h2>Skill set</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div>
+          <h3>Research</h3>
+          <p>Public opinion · Survey research · Focus groups · Mixed methods · Human subjects research</p>
+        </div>
+        <div>
+          <h3>Data</h3>
+          <p>R · Python · Statistical modeling · Machine learning · NLP · Text analysis</p>
+        </div>
+        <div>
+          <h3>AI Workflows</h3>
+          <p>LLM evaluation · AI benchmarking · Research automation · OpenAlex API · Whisper</p>
+        </div>
+        <div>
+          <h3>Consulting</h3>
+          <p>Client-facing research · Report writing · Stakeholder analysis · UX/service design</p>
+        </div>
       </div>
     </section>
 
   </main>
 
-  <footer>
-    <p>© 2026 Sabrina Victoria Corbacho</p>
+  <footer id="contact">
+    <div class="container footer-content">
+      <p>© 2026 Sabrina Victoria Corbacho</p>
+      <div>
+        <a href="https://github.com/sabrinaVcorbacho" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/svcorbacho/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
   </footer>
 
 </body>
